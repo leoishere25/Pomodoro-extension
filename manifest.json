@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Pomodoro Chrome Extension",
+    "version": "0.0.3",
+    "description": "Pomodoro chrome extension",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "pomodoro.png"
+    },
+    "icons": {
+        "16": "pomodoro.png",
+        "32": "pomodoro.png",
+        "48": "pomodoro.png",
+        "128": "pomodoro.png"
+    },
+    "permissions": [
+		"storage"
+	]
+}
